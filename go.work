@@ -27,4 +27,5 @@ use (
 	./24JsonCreation
 	./25JsonDecoding
 	./excercise_1_to_6
+	./exercise_7_to_25
 )

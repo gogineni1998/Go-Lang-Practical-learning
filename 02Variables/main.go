@@ -17,5 +17,4 @@ func main() {
 
 	var id int8 = 31
 	fmt.Println(id)
-
 }
