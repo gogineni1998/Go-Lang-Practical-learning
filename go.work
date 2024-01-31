@@ -1,0 +1,30 @@
+go 1.21.6
+
+use (
+	./01Hello
+	./02Variables
+	./03userinput
+	./04convertions
+	./05time
+	./06pointers
+	./07Arrays
+	./08Slices
+	./09RemovingValueFromSlice
+	./10Maps
+	./11Structs
+	./12IfElse
+	./13SwitchCase
+	./14Loops
+	./15functions
+	./16Methods
+	./17Defer
+	./18Files
+	./19webrequests
+	./20urls
+	./21webgetrequests
+	./22webpostrequests
+	./23weformdatarequests
+	./24JsonCreation
+	./25JsonDecoding
+	./excercise_1_to_6
+)
