@@ -7,11 +7,11 @@ import (
 
 func main() {
 	jsonObject := encodeJson()
-	address := decodeJson(jsonObject)
-	fmt.Printf("%+v", address)
+	addressStruct := decodeJsonStruct(jsonObject)
+	fmt.Printf("%+v", addressStruct)
 }
 
-func decodeJson(jsonObject []byte) []Address {
+func decodeJsonStruct(jsonObject []byte) []Address {
 	var address []Address
 	err := json.Unmarshal(jsonObject, &address)
 	if err != nil {
