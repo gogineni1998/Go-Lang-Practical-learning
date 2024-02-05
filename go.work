@@ -30,4 +30,5 @@ use (
 	./27mongoapi
 	./excercise_1_to_6
 	./exercise_7_to_25
+	./student_details_api_golang
 )
