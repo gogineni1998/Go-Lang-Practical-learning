@@ -1,6 +1,7 @@
-go 1.21.6
+go 1.22.0
 
 use (
+	./../Book-Store-Management-System
 	./01Hello
 	./02Variables
 	./03userinput
@@ -28,7 +29,12 @@ use (
 	./25JsonDecoding
 	./26buildapi
 	./27mongoapi
+	./28goroutines
+	./29goRoutinesPractice
+	./30goContext
 	./excercise_1_to_6
 	./exercise_7_to_25
 	./student_details_api_golang
+	./../golang-postgres-project
+	
 )
