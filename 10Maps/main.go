@@ -11,7 +11,6 @@ func main() {
 	myMap["SGN"] = "Satya Neeraj Gogineni"
 	myMap["VG"] = "Vijayababu Gogineni"
 	myMap["PG"] = "Praveena Gogineni"
-	myMap["DD"] = "Daridram"
 
 	fmt.Println(myMap)
 
